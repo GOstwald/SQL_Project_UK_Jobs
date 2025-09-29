@@ -80,8 +80,145 @@ WHERE
 GROUP BY
     skills.skill_id
 HAVING
-    COUNT(skills_to_job.job_id) > 1  -- Ensuring there is more than one job for a skill so the results are more reliable.
+    COUNT(skills_to_job.job_id) > 2  -- Ensuring there is atleast three jobs for a skill so the results are more reliable.
 ORDER BY
     avg_yearly_salary DESC,
     job_count DESC
 LIMIT 25;
+
+/*
+[
+  {
+    "skill_id": 79,
+    "skills": "oracle",
+    "job_count": "3",
+    "avg_yearly_salary": "124892"
+  },
+  {
+    "skill_id": 61,
+    "skills": "sql server",
+    "job_count": "4",
+    "avg_yearly_salary": "120379"
+  },
+  {
+    "skill_id": 215,
+    "skills": "flow",
+    "job_count": "4",
+    "avg_yearly_salary": "113662"
+  },
+  {
+    "skill_id": 97,
+    "skills": "hadoop",
+    "job_count": "3",
+    "avg_yearly_salary": "112141"
+  },
+  {
+    "skill_id": 74,
+    "skills": "azure",
+    "job_count": "6",
+    "avg_yearly_salary": "110922"
+  },
+  {
+    "skill_id": 102,
+    "skills": "jupyter",
+    "job_count": "3",
+    "avg_yearly_salary": "102580"
+  },
+  {
+    "skill_id": 185,
+    "skills": "looker",
+    "job_count": "6",
+    "avg_yearly_salary": "100969"
+  },
+  {
+    "skill_id": 1,
+    "skills": "python",
+    "job_count": "24",
+    "avg_yearly_salary": "92402"
+  },
+  {
+    "skill_id": 192,
+    "skills": "sheets",
+    "job_count": "4",
+    "avg_yearly_salary": "91356"
+  },
+  {
+    "skill_id": 183,
+    "skills": "power bi",
+    "job_count": "7",
+    "avg_yearly_salary": "90256"
+  },
+  {
+    "skill_id": 5,
+    "skills": "r",
+    "job_count": "9",
+    "avg_yearly_salary": "88526"
+  },
+  {
+    "skill_id": 0,
+    "skills": "sql",
+    "job_count": "33",
+    "avg_yearly_salary": "87156"
+  },
+  {
+    "skill_id": 181,
+    "skills": "excel",
+    "job_count": "29",
+    "avg_yearly_salary": "83362"
+  },
+  {
+    "skill_id": 22,
+    "skills": "vba",
+    "job_count": "4",
+    "avg_yearly_salary": "83331"
+  },
+  {
+    "skill_id": 182,
+    "skills": "tableau",
+    "job_count": "13",
+    "avg_yearly_salary": "82079"
+  },
+  {
+    "skill_id": 196,
+    "skills": "powerpoint",
+    "job_count": "3",
+    "avg_yearly_salary": "80558"
+  },
+  {
+    "skill_id": 186,
+    "skills": "sas",
+    "job_count": "4",
+    "avg_yearly_salary": "80551"
+  },
+  {
+    "skill_id": 7,
+    "skills": "sas",
+    "job_count": "4",
+    "avg_yearly_salary": "80551"
+  },
+  {
+    "skill_id": 77,
+    "skills": "bigquery",
+    "job_count": "3",
+    "avg_yearly_salary": "79866"
+  },
+  {
+    "skill_id": 8,
+    "skills": "go",
+    "job_count": "9",
+    "avg_yearly_salary": "74905"
+  },
+  {
+    "skill_id": 188,
+    "skills": "word",
+    "job_count": "5",
+    "avg_yearly_salary": "62003"
+  },
+  {
+    "skill_id": 198,
+    "skills": "outlook",
+    "job_count": "6",
+    "avg_yearly_salary": "57788"
+  }
+]
+*/
