@@ -65,8 +65,8 @@ LIMIT 10;
 
 - **Salary Benchmark:** All top roles exceed £100k/year, highlighting strong demand for advanced data skills.
 
-![Top 10 Highest Paying Data Roles in the UK](assets/top_paying_jobs_graph.png)
-*Bar Chart showing the salaries of the 10 highest paying data analyst roles in the UK; ChatGPT generated from SQL results*
+![Top 10 Highest Paying Data Roles in the UK](assets/top_paying_jobs.png)
+*Bar Chart showing the salaries of the 10 highest paying data analyst roles in the UK; Made from SQL results using PowerBI.*
 
 ### 2. Skill Breakdown for the Top Paying Data Analyst Roles in the UK
 
