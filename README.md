@@ -235,7 +235,7 @@ ORDER BY
 LIMIT 25;
 ```
 ![Optimal Skills for Data Analysts in the UK](assets/optimal_skills.png)
-*Bar Chart showing the top 25 skills for data analysts to learn for career growth in the UK; Made from SQL results using PowerBI.*
+*Scatter Graph showing the top 25 skills for data analysts to learn for career growth in the UK; Made from SQL results using PowerBI.*
 
 | Skill ID | Skill     | Job Count | Avg Yearly Salary |
 |----------|------------|-----------|-------------------|
