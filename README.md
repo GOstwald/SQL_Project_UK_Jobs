@@ -139,6 +139,8 @@ ORDER BY
     job_count DESC
 LIMIT 5;
 ```
+![Top 5 Most In-Demand Skills for Data Analysts in the UK](assets/top_demanded_skills.png)
+*Bar Chart showing the 5 most in-demand skills for data analyst roles in the UK; Made from SQL results using PowerBI.*
 
 | Skills   | Job Count |
 |----------|-----------|
@@ -172,6 +174,8 @@ ORDER BY
     avg_yearly_salary DESC
 LIMIT 25;
 ```
+![Top 25 Highest-Paying Skills for Data Analysts in the UK](assets/top_paying_skills.png)
+*Bar Chart showing the top 25 highest-paying skills for data analyst roles in the UK; Made from SQL results using PowerBI.*
 
 | Skills        | Avg Yearly Salary |
 |---------------|-------------------|
@@ -230,6 +234,8 @@ ORDER BY
     job_count DESC
 LIMIT 25;
 ```
+![Optimal Skills for Data Analysts in the UK](assets/optimal_skills.png)
+*Bar Chart showing the top 25 skills for data analysts to learn for career growth in the UK; Made from SQL results using PowerBI.*
 
 | Skill ID | Skill     | Job Count | Avg Yearly Salary |
 |----------|------------|-----------|-------------------|
